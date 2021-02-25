@@ -1,0 +1,108 @@
+.container {
+    position: relative;
+    display: grid;
+    text-align: center;
+    background-color: #FFF;
+    width: 20%;
+    height: 30rem;
+    
+    border-radius: 10px;
+    
+    margin-left: 40%;
+    
+
+    .logins {
+        display: grid;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        
+    }
+
+     .logins > button:first-child {
+      
+         width: 85%;
+         border-radius: 20px;
+         padding: 10px;
+         border-color: #4621AD;
+         background-color: #8D89FC;
+         color: #FFF;
+         margin-left: 25px;
+         cursor: pointer;
+     }
+
+     .logins > button:last-child {
+          margin-top: 20px;
+          width: 85%;
+          border-radius: 20px;
+          padding: 10px;
+          border-color: #4621AD;
+          margin-left: 25px;
+          cursor: pointer;
+     }
+   
+   
+   
+   
+    
+    
+    .fields {
+        width: 80%;
+        
+    }   
+
+    .fields > div > input {
+        height: 30px;
+        text-align: center;
+        border-radius: 30px;
+        border-color: #4621AD;
+        padding-top: 10px;
+        margin: 10px 25px auto;
+       
+    }
+
+
+    .icons {
+        display: flex;
+       
+        align-items: center;
+    }
+    
+    .icons span:first-child {
+        margin-left: 3.2rem;
+        background-color: #4621AD;
+        width: 25%;
+        height: 100%;
+        font-size: 2rem;
+        border-radius: 8px;
+       
+    }
+
+    .icons span:last-child {
+        margin-left: 2rem;
+        background-color: #FFF;
+        width: 25%;
+        height: 100%;
+        font-size: 2rem;
+        border-radius: 8px;
+    }
+   
+
+    .button {
+         width: 3.4rem;
+         height: 3.4rem;
+         border-radius: 50%;
+         background-color: red;
+         transform: translate(55%, 20%);
+         margin: 2px auto;
+         background-color: #4723AE;
+    }
+
+    #plusIcon {
+        color: #FFEE00;
+        font-size: 2rem;
+        transform: translate(0%, 30%);
+    }
+
+}
+
