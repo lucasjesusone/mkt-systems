@@ -2,7 +2,6 @@ body {
   background-color: #4621AD;
    margin: 0;
    padding: 0;
-
    overflow-x: hidden ;
 }
 
@@ -11,7 +10,9 @@ body {
   max-width: 1500px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media (max-width: 768) {
+  body {
+    width: 100%;
+    max-width: 1500px;
+  }
 }
