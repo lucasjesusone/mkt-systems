@@ -1,12 +1,10 @@
-import React,{useState} from "react";
+import React from "react";
 import "../../index.css";
 import "./nav.scss";
+import { FaBars } from 'react-icons/fa'
 
 const Navbar = () => {
-  const [clicked, setClicked] = useState(false);
-  const onHandleClick = () => {
-    setClicked(!clicked);
-  };
+
   return (
     <navbar>
       <div className="content">
@@ -19,9 +17,7 @@ const Navbar = () => {
           <li>AUDIO</li>
         </ul>
       </div>
-      <div className='menu-icon' onClick={onHandleClick}>
-        <i className={clicked ?'fas fa-times' : 'fas fa-bars'}></i>
-      </div>
+      <i  className='btn'><FaBars/></i>
     </navbar>
   );
 };
