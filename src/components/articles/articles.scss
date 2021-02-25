@@ -2,7 +2,32 @@
     position: relative;
 
     .services {
+        
+        
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(4, 1fr);
+        height: auto;
+    }
+
+    .icon {
+        
+        color: #FFFF00;
+        text-align: center;
+        font-size: 3rem;
+        padding-top: 2rem;
+    }   
+
+    .title {
+        margin-top: -2.5rem;
+        padding: 0;
+        text-align: center;
+        font-size: 1.2rem;
+        color: #FFF;
+        
+    }
+
+    .text {
+        text-align: center;
+        color: #FFF;
     }
 }
