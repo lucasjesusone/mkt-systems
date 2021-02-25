@@ -5,14 +5,22 @@
     div:first-child {
         background-color: #FFF;
         width: 12%;
-        margin-left: 40rem;
+        margin-left: 36rem;
         height: 3.5rem;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
         align-items: center;
         align-content: center;
         text-align: center;
+
+        background-image: url('../../images/logo.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 60px;
         
+        @media screen and (max-width: 968px) {
+            display: none;
+        }
     }
 
    
@@ -25,7 +33,15 @@
         list-style: none;
         font-size: 1.1rem;
         color: #FFF;
+        
+        
+        @media screen and (max-width: 968px) {
+            display: none;
+        }
     }
+
+   
+    
 
     
    
