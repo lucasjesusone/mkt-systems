@@ -17,7 +17,7 @@ const Navbar = () => {
           <li>AUDIO</li>
         </ul>
       </div>
-      <i  className='btn'><FaBars/></i>
+     
     </navbar>
   );
 };
