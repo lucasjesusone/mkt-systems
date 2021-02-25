@@ -7,6 +7,10 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         height: auto;
+
+        @media screen and (max-width: 968px) {
+            display: list-item;
+        }
     }
 
     .icon {

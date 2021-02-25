@@ -2,7 +2,7 @@ import React from "react";
 import { VscWatch } from "react-icons/vsc";
 import { HiOutlineMicrophone } from "react-icons/hi";
 import { FiActivity } from "react-icons/fi";
-import { GrDiamond } from "react-icons/gr";
+import { RiVipDiamondFill } from "react-icons/ri";
 
 import "../articles/articles.scss";
 
@@ -36,7 +36,7 @@ const Articles = () => {
 
         <div>
           <p className="icon">
-            <GrDiamond />
+            <RiVipDiamondFill />
           </p>
           <p className="title">Spend time smart</p>
           <p className="text">Lorem ipsum sit amet lorem</p>
