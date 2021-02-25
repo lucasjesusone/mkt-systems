@@ -9,7 +9,15 @@
     border-radius: 10px;
     
     margin-left: 40%;
-    
+    margin-bottom: 2rem;
+
+    @media screen and (max-width: 968px) {
+        width: 55%;
+        align-items: center;
+        text-align: center;
+        padding-right: 2rem;
+        transform: translate(-30%);
+    }
 
     .logins {
         display: grid;
