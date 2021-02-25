@@ -1,0 +1,8 @@
+.articles-content {
+    position: relative;
+
+    .services {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

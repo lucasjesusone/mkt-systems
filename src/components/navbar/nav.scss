@@ -1,0 +1,30 @@
+.content {
+    height: 8rem;
+    width: 100%;
+
+    div:first-child {
+        background-color: #FFF;
+        width: 12%;
+        margin-left: 40rem;
+        height: 3.5rem;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    ul {
+        flex: 1;
+
+        display: grid;
+        grid-template-columns: 0.3fr 0.44fr 6fr;
+        margin-left: 17rem;
+        text-decoration:underline;
+        list-style: none;
+        
+    }
+
+    
+   
+}
