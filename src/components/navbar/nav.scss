@@ -33,18 +33,22 @@
         list-style: none;
         font-size: 1.1rem;
         color: #FFF;
+        cursor: pointer;
+
         
+        
+        :hover {
+            color: #000;
+            
+         }
         
         @media screen and (max-width: 968px) {
             display: none;
         }
     }
-
-   .btn {
-       transform: translate(50rem, 30rem);
-       left: -100%;
-   }
     
+
+  
 
     
    

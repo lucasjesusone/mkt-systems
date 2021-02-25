@@ -37,6 +37,11 @@
          color: #FFF;
          margin-left: 25px;
          cursor: pointer;
+         -webkit-box-shadow: 0px 10px 10px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 10px -9px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 10px -9px rgba(0,0,0,0.75);
+
+        
      }
 
      .logins > button:last-child {
@@ -47,6 +52,9 @@
           border-color: #4621AD;
           margin-left: 25px;
           cursor: pointer;
+          -webkit-box-shadow: 0px 10px 10px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 10px -9px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 10px -9px rgba(0,0,0,0.75);
      }
    
    
@@ -83,7 +91,7 @@
         height: 100%;
         font-size: 2rem;
         border-radius: 8px;
-       
+       border-color: #C0C0C0;
     }
 
     .icons span:last-child {
@@ -93,6 +101,7 @@
         height: 100%;
         font-size: 2rem;
         border-radius: 8px;
+        border-color: #C0C0C0   ;
     }
    
 
@@ -104,6 +113,8 @@
          transform: translate(55%, 20%);
          margin: 2px auto;
          background-color: #4723AE;
+         cursor: pointer;
+    
     }
 
     #plusIcon {

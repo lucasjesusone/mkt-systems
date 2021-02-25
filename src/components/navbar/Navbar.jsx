@@ -1,7 +1,7 @@
 import React from "react";
 import "../../index.css";
 import "./nav.scss";
-import { FaBars } from 'react-icons/fa'
+
 
 const Navbar = () => {
 
